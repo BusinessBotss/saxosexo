@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jazz Track Listing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            background: #121212 url('https://www.transparenttextures.com/patterns/black-linen.png') repeat;
+            font-family: 'Montserrat', sans-serif;
+            color: #fff;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        thead {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        th, td {
+            padding: 14px 16px;
+            text-align: left;
+        }
+        th {
+            font-weight: 600;
+            color: #ffcc70;
+        }
+        tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.03);
+        }
+        tr:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .playlist-button {
+            display: block;
+            margin: 40px auto 0;
+            padding: 14px 28px;
+            background-color: #ffcc70;
+            color: #121212;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(255, 204, 112, 0.3);
+            transition: background-color 0.3s ease;
+        }
+        .playlist-button:hover {
+            background-color: #ffdb8a;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jazz Track Listing</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Track Name</th>
+                <th>Artist Name(s)</th>
+                <th>Album Name</th>
+                <th>Album Artist Name(s)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí van todas las filas (sin modificar del original) -->
+        </tbody>
+    </table>
+    <a href="https://open.spotify.com/playlist/3DAF9UcGtT4iwybIlQzlS5?si=8b79149f6a2a4db1" target="_blank" class="playlist-button">🎷 Visit Playlist on Spotify</a>
+</body>
+</html>
